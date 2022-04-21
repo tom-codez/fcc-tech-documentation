@@ -66,12 +66,7 @@ li {
     border-left: 2px solid #ddd;
     padding-left: 18px;
 }
-#navbar li :focus {
-    border-left: 4px solid #ddd;
-}
-#navbar li :after {
-    border-left: 3px solid #ddd;
-}
+
 #main-doc li {
     margin-left: 24px;
 }
@@ -93,7 +88,7 @@ li {
 .code-cont {
     background-color: #444;
     margin: 12px;
-    margin-left: 14px;
+    margin-left: 24px;
     padding: 12px;
 }
 code {
