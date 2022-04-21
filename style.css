@@ -1,0 +1,118 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: #222;
+    display: block;
+    padding: 12px;
+    line-height: 1.8;
+}
+header {
+    font-size: 1.4em;
+    margin-top: 32px;
+    font-weight: 600;
+}
+p {
+    font-size: 1em;
+    padding: 0;
+    margin: 12px;
+}
+main {
+    display: block;
+    margin-top: 80px;
+}
+.main-section {
+    padding-bottom: 12px;
+}
+#main-doc {
+    display: block;
+    position: absolute;
+    margin-left: 340px;
+    margin-right: 32px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+#navbar {
+    display: block;
+    position: fixed;
+    top: 0px;
+    left: 0ox;
+    width: 320px;
+    height: 100%;
+    border-right: 3px solid #ddd;
+}
+#nav-header {
+    padding: 48px 0 18px 0;
+    font-style: normal;
+    font-size: 1.8em;
+    margin: 22px 0 14px 0;
+    border-bottom: 2px solid #ddd;
+}
+#navbar ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    position: relative;
+    width: 100%;
+    padding: 6px 0;
+}
+#navbar li {
+    border-bottom: 0px dotted #ddd;
+    padding: 0px 0;
+    list-style: none;
+    font-size: 18px;
+}
+#navbar li :hover {
+    border-left: 2px solid #ddd;
+    padding-left: 18px;
+}
+#navbar li :focus {
+    border-left: 4px solid #ddd;
+}
+#navbar li :after {
+    border-left: 3px solid #ddd;
+}
+#main-doc li {
+    margin-left: 24px;
+}
+#navbar a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    color: #ddd;
+}
+#navbar a:hover {
+    background-color: #444;
+}
+#main-doc a {
+    color: #3399FF; 
+}
+#main-doc a:hover {
+    color: #bbb; 
+}
+.code-cont {
+    background-color: #444;
+    margin: 12px;
+    margin-left: 14px;
+    padding: 12px;
+}
+code {
+    color: white;
+    font-size: 1.1em;
+}
+@media only screen and (max-width: 815px){
+    #main-doc {
+        margin: 160px 0px 0px 0px;
+    }
+    #navbar, #main-doc {
+        position: relative;
+        width: 92%;
+        padding: 20px;
+    }
+    main {
+        width: auto;
+    }
+    #navbar {
+        border: 3px solid #ddd;
+    }
+}
